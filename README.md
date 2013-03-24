@@ -1,4 +1,4 @@
-spectre_model_service
+Spectre Model Service
 =====================
 
 A model conversion service for Spectre.
