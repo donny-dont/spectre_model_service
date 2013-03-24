@@ -97,7 +97,7 @@ class Base64Encoder {
 
       encoded[j++] = _encodingTable[index0];
       encoded[j++] = _encodingTable[index1];
-      encoded[j  ] = _encodingTable[index2];
+      encoded[j++] = _encodingTable[index2];
       encoded[j  ] = 61;
     } else if (i + 1 == dataLength) {
       octetA = dataBytes[i];
